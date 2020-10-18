@@ -1,0 +1,14 @@
+.nav {
+	background-color: $light-grey;
+
+	ul {
+		display: flex;
+		list-style-type: none;
+		padding: 0;
+		text-decoration: none;
+	}
+
+	li {
+		padding: 0 10px;
+	}
+}
