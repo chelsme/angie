@@ -1,14 +1,18 @@
 .nav {
 	background-color: $light-grey;
+	display: flex;
+	justify-content: space-between;
 
-	ul {
+	.buttons {
 		display: flex;
-		list-style-type: none;
-		padding: 0;
-		text-decoration: none;
+		justify-content: space-between;
+		width: 500px;
 	}
 
-	li {
-		padding: 0 10px;
+	button {
+		background-color: Transparent;
+		border: none;
+		cursor: pointer;
+		height: 40px;
 	}
 }
