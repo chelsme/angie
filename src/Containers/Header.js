@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import dogLookingUp from './../Assets/dogLookingUp.png';
+
 export default class Header extends Component {
 	constructor(props) {
 		super(props);

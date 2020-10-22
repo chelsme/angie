@@ -1,10 +1,22 @@
-@import './styles/colors.scss';
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+
+.App .section {
+	font-family: 'Maven Pro', sans-serif;
+	padding: 50px;
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	p {
+		margin: 0;
+	}
+}
+
+@import './styles/styles.scss';
 @import './styles/nav';
 @import './styles/header.scss';
 @import './styles/services.scss';
 @import './styles/contact.scss';
 @import './styles/footer.scss';
-
-.App .section {
-	padding: 50px;
-}

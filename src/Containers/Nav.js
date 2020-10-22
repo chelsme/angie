@@ -12,7 +12,7 @@ export default class Nav extends Component {
 	render() {
 		return (
 			<div className="section nav">
-				<h2>Angie's Site</h2>
+				<h1>Angie's Site</h1>
 				<div className="buttons">
 					<button>Home</button>
 					<button>Our Story</button>
