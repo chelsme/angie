@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-
+import dogLookingUp from './../Assets/dogLookingUp.png';
 export default class Header extends Component {
 	constructor(props) {
 		super(props);
@@ -12,8 +12,7 @@ export default class Header extends Component {
 	render() {
 		return (
 			<div className="section header">
-				<h2>Header</h2>
-				<p>(nice big cover photo - will change p to img)</p>
+				<img className="doggo" src={dogLookingUp} alt="doggo" />
 			</div>
 		);
 	}
