@@ -1,19 +1,21 @@
 .nav {
-	background-color: $light-grey;
 	display: flex;
-	height: 75px;
+	height: 100px;
 	justify-content: space-between;
 
 	.buttons {
 		display: flex;
 		justify-content: space-between;
-		width: 400px;
+		width: 500px;
 	}
 
 	button {
 		background-color: Transparent;
 		border: none;
 		cursor: pointer;
+		font-size: 1em;
+		font-weight: bold;
 		height: 40px;
+		padding: 10px;
 	}
 }
